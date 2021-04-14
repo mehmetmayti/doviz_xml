@@ -1,0 +1,10 @@
+C:\Users\Mehmet\Desktop\Dersler\NTP2\Vize_Odevi\doviz_xml\doviz_xml\bin\Debug\doviz_xml.exe.config
+C:\Users\Mehmet\Desktop\Dersler\NTP2\Vize_Odevi\doviz_xml\doviz_xml\bin\Debug\doviz_xml.exe
+C:\Users\Mehmet\Desktop\Dersler\NTP2\Vize_Odevi\doviz_xml\doviz_xml\bin\Debug\doviz_xml.pdb
+C:\Users\Mehmet\Desktop\Dersler\NTP2\Vize_Odevi\doviz_xml\doviz_xml\obj\Debug\doviz_xml.csprojAssemblyReference.cache
+C:\Users\Mehmet\Desktop\Dersler\NTP2\Vize_Odevi\doviz_xml\doviz_xml\obj\Debug\doviz_xml.Form1.resources
+C:\Users\Mehmet\Desktop\Dersler\NTP2\Vize_Odevi\doviz_xml\doviz_xml\obj\Debug\doviz_xml.Properties.Resources.resources
+C:\Users\Mehmet\Desktop\Dersler\NTP2\Vize_Odevi\doviz_xml\doviz_xml\obj\Debug\doviz_xml.csproj.GenerateResource.cache
+C:\Users\Mehmet\Desktop\Dersler\NTP2\Vize_Odevi\doviz_xml\doviz_xml\obj\Debug\doviz_xml.csproj.CoreCompileInputs.cache
+C:\Users\Mehmet\Desktop\Dersler\NTP2\Vize_Odevi\doviz_xml\doviz_xml\obj\Debug\doviz_xml.exe
+C:\Users\Mehmet\Desktop\Dersler\NTP2\Vize_Odevi\doviz_xml\doviz_xml\obj\Debug\doviz_xml.pdb
