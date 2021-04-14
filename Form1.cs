@@ -23,8 +23,8 @@ namespace doviz_xml
         {
             DataXmlServices services = new DataXmlServices();
             var a = services.getAllDocument();
-            var b=services.convertToList(services.getAllDocument());
-
+            var b=services.convertToList(a);
+            services.listWriteTextFile(b);
         }
     }
 }

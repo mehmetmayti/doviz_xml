@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -16,6 +17,8 @@ namespace doviz_xml.services
         {
             return XDocument.Load(serviceUrl);
         }
+
+
         public List<object> convertToList(XDocument doc)
         {
             XElement root = doc.Root;
@@ -32,13 +35,32 @@ namespace doviz_xml.services
                 data.banknoteSelling = item.Element("BanknoteSelling").Value;
                 listData.Add(data);
             }
-            
-        
-
             return listData;
             
         }
 
+        public void listWriteTextFile(List<object> list)
+        {
+            string dataFilePath = "dataFile.txt";
+
+            FileStream fileStream = new FileStream(dataFilePath, FileMode.OpenOrCreate, FileAccess.Write);
+
+            StreamWriter streamReader = new StreamWriter(fileStream, Encoding.UTF8);
+
+            foreach (DataModel item in list)
+            {
+                streamReader.Write(item.currencyCode + "-");
+                streamReader.Write(item.currencyName + "-");
+                streamReader.Write(item.forexBuying + "-");
+                streamReader.Write(item.forexSelling + "-");
+                streamReader.Write(item.banknoteBuying + "-");
+                streamReader.WriteLine(item.banknoteSelling);
+            }
+            streamReader.Close();
+            fileStream.Close();
+
+
+        }
 
 
 
